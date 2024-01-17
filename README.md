@@ -1,4 +1,8 @@
-## Format filename
+# Format filename
+
+## Why?
+I often find myself in the command-line running programs like [Neovim](https://neovim.io/) (aliased to `v`) on text files or [Zathura](https://github.com/pwmt/zathura) on PDF files.
+I usually name files with underscores, as it's easier to type out than a space when using the command-line. Similarly, I often don't use slashes, parentheses, or any other character that needs to be [excaped](https://en.wikipedia.org/wiki/Escape_character) for the reason of not having to type out more than needed. However, not all files are named this way by default, so this program makes it easier to change it quickly. It's also a good excuse to write something in [Rust](https://www.rust-lang.org/) ( :crab: ).
 
 ## Usage
 
