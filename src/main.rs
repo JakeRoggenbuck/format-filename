@@ -16,10 +16,7 @@ struct Opt {
 }
 
 fn should_be_replaced(ch: char) -> bool {
-    match ch {
-        ' ' | '/' | '\\' | '(' | ')' => true,
-        _ => false,
-    }
+    matches!(ch, ' ' | '/' | '\\' | '(' | ')')
 }
 
 fn format_filename(filename: String) -> String {
@@ -33,7 +30,7 @@ fn format_filename(filename: String) -> String {
         }
     }
 
-    return new_filename;
+    new_filename
 }
 
 fn main() {
