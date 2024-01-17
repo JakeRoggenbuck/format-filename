@@ -1,4 +1,5 @@
 # Format filename
+Format filenames to a command-line friendly format
 
 ![image](https://github.com/JakeRoggenbuck/format-filename/assets/35516367/02a60dc3-a694-4dd4-8976-d269940727c9)
 
