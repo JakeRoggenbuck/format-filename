@@ -69,7 +69,7 @@ fn main() {
     }
 
     println!(
-        "Should {} be changed to {}? [Y/n]: ",
+        "Should {} be changed to {}? [y/N]: ",
         color!(Color::GREEN, &format!("'{}'", filename)),
         color!(Color::GREEN, &format!("'{}'", new_filename))
     );
