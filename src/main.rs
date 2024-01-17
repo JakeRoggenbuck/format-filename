@@ -1,4 +1,4 @@
-use efcl::{bold, color, Color};
+use efcl::{color, Color};
 use std::fs;
 use std::path::Path;
 use std::process::exit;
