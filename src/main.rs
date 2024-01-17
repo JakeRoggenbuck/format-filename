@@ -17,7 +17,7 @@ struct Opt {
 
 fn should_be_replaced(ch: char) -> bool {
     match ch {
-        ' ' | '/' | '\\' => true,
+        ' ' | '/' | '\\' | '(' | ')' => true,
         _ => false,
     }
 }
